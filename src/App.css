@@ -61,7 +61,7 @@ body{
 .main-content input{
   margin:2rem 0;
   padding:12px 5px;
-  width:40%;
+  width:70%;
   border:1px solid #fff;
   border-radius:5px;
   font-size:1rem;
@@ -78,18 +78,17 @@ body{
 .user-input-location{
   font-size:10vw;
   text-transform: uppercase;
-  text-shadow: #fff 1px 0 10px;
 }
 
 
 .temp h1{
-  font-size:4vw;
+  font-size:5vw;
   text-shadow: #fff 1px 0 10px;
 }
 
 .description p{
   font-weight:var(--font-weight-lgt);
-  font-size:2vw;
+  font-size:2.5vw;
   text-transform:uppercase;
   text-shadow: #fff 1px 0 10px;
 }
