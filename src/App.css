@@ -10,8 +10,13 @@
   box-sizing:border-box;
 }
 
+html, body{
+  overflow:hidden;
+}
+
 body{
   line-height: 1.4;
+  height:100vh;
   font-size:100%;
   background-image: url(./components/images/yfwabg.jpg);
   background-blend-mode: darken;
