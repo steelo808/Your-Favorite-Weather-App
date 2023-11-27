@@ -34,7 +34,7 @@ function App() {
     <div className ="location-info">
 
     <div className ='location'>
-      <h1>{data.name}</h1>
+      <h1 className='user-input-location'>{data.name}</h1>
     </div>
 
     <div className='temp'>
@@ -43,7 +43,7 @@ function App() {
 
     <div className ='description'>
     <div className="desc-icon">
-      {data.weather ? <h1>{data.weather[0].description}</h1> : null}
+      {data.weather ? <p>{data.weather[0].description}</p> : null}
     </div>
     </div>
     </div>
