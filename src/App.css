@@ -33,12 +33,24 @@ body{
   max-width:1100px;
   margin:0 auto;
   padding:0px 10px;
+  position:relative;
 }
 
 .logo{
   width:200px;
 }
 
+.center-text{
+  text-align:center;
+}
+
+.uppercase{
+  text-transform:uppercase;
+}
+
+.shadow-effect{
+  text-shadow: #fff 1px 0 10px;
+}
 
 /* Navbar */
 .nav-flex{
@@ -47,8 +59,16 @@ body{
   align-items:center;
 }
 
+.time{
+  font-size:7vw
+}
+
 
 /* main content */
+
+.search-text{
+  font-size:4vw;
+}
 
 .main-content{
   display:flex;
@@ -59,7 +79,7 @@ body{
 
 
 .main-content input{
-  margin:2rem 0;
+  margin:0.8rem 0 0.5rem 0;
   padding:12px 5px;
   width:70%;
   border:1px solid #fff;
@@ -76,7 +96,7 @@ body{
 
 
 .user-input-location{
-  font-size:10vw;
+  font-size:8vw;
   text-transform: uppercase;
 }
 
@@ -91,4 +111,22 @@ body{
   font-size:2.5vw;
   text-transform:uppercase;
   text-shadow: #fff 1px 0 10px;
+}
+
+.bottom-section{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color:rgba(0,0,0,0.5);
+  height:auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:6rem;
+  padding:1rem 4rem;
+}
+
+.bottom-section h1 {
+  font-size:4vw;
 }
