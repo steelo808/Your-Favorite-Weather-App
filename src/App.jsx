@@ -64,15 +64,15 @@ function App() {
       <div class="bottom-section center-text">
       <div className="feels-like">
           <h1 className="uppercase">feels like</h1>
-          {data.main ? <p className="shadow-effect">{data.main.feels_like.toFixed()}°F</p> : null}
+          {data.main ? <p className="shadow-effect data">{data.main.feels_like.toFixed()}°F</p> : null}
       </div>
       <div className="feels-like">
           <h1 className="uppercase">Low Temp</h1>
-          {data.main ? <p className="shadow-effect">{data.main.temp_min.toFixed()}°F</p> : null}
+          {data.main ? <p className="shadow-effect data">{data.main.temp_min.toFixed()}°F</p> : null}
       </div>
       <div className="feels-like">
           <h1 className="uppercase">High Temp</h1>
-          {data.main ? <p className ="shadow-effect">{data.main.temp_max.toFixed()}°F</p> : null}
+          {data.main ? <p className ="shadow-effect data">{data.main.temp_max.toFixed()}°F</p> : null}
       </div>
         </div>
     </div>

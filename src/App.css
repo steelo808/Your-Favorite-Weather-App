@@ -103,7 +103,7 @@ body{
 
 
 .temp h1{
-  font-size:3.5vw;
+  font-size:4.8vw;
   text-shadow: #fff 1px 0 10px;
 }
 
@@ -115,7 +115,7 @@ body{
 }
 
 .bottom-section{
-  position:absolute;
+  position:fixed;
   bottom:0;
   left:0;
   width:100%;
@@ -129,9 +129,9 @@ body{
 }
 
 .bottom-section h1 {
-  font-size:3vw;
+  font-size:2vw;
 }
 
-.bottom-section{
+.bottom-section .data{
   font-size: 2vw;
 }
