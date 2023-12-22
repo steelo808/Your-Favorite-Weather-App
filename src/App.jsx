@@ -3,12 +3,15 @@ import axios from "axios";
 import "./App.css";
 import NavBar from "./components/NavBar";
 
+
 function App() {
   const [data, setData] = useState({});
   const [location, setLocation] = useState("");
   const [isLoading, setLoading] = useState(false);
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&lat={lat}&lon={lon}&appid=928ba6458be5275b4da9ec4f2d94a127`;
+  const apiKey = import.meta.env.VITE_APIKEY;
+
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&lat={lat}&lon={lon}&appid=${apiKey}`;
 
   const searchLocation = (event) => {
     setLoading(true);
@@ -41,6 +44,8 @@ function App() {
             placeholder="Enter Location"
             onKeyDown={searchLocation}
           />
+
+          {/* <button type = "submit" className="btn" >Enter</button> */}
 
           <div className="location-info">
             <div className="location">
